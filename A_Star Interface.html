@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<div id="parameters">
+			Chose cell type : 
+			<select id="cellType">
+				<option value="start" selected="selected">STARTING POINT</option>
+				<option value="obstacle">OBSTACLES</option>
+				<option value="goal">GOAL</option>
+			</select>
+			Cell Width In Pixels : 
+			<input type="number" id="cellWidth" value="150" min="3" max="100"/>
+			<input type="button" id="createMaze" onclick="createMaze();" value="Create Maze">
+			<input type="button" id="a_star"  value="SOLVE" onclick="A_star()">
+		</div>
+	</body>
+	<link rel="stylesheet" href="Style.css"/>
+	<script type="text/javascript" src="A_Star_Algorithm.js"></script>
+	<!--<script type="text/javascript" src="backup.js"></script>-->
+</html>

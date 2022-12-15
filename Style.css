@@ -1,0 +1,21 @@
+#maze {
+	border: 2px solid black;
+	border-radius: 0px;
+	border-collapse: collapse;
+	margin: auto;
+}
+#cellType {
+	order:-2;
+}
+#maze td {
+	border: 2px solid black;
+}
+#parameters {
+	margin-bottom: 10px;
+}
+/*function cellCords(cell){
+	var x = parseInt(cell.offsetTop / cell.offsetHeight,10);
+	var y = parseInt(cell.offsetLeft / cell.offsetWidth,10);
+	var point = {x:this.x,y:this.y};
+	return point;
+}*/
